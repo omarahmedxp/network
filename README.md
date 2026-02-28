@@ -17,15 +17,15 @@ This project for network engineers and security researchers. It covers from low-
 
 ### Sniffing & Analysis
 
-* **`simple_sniffer.py`**: Basic packet capture tool.
-* **`mail_sniffer.py`**: Specifically designed to intercept and log email credentials and data.
-* **`sniffer_ip_header.py`**: Decodes and displays IP header information from captured packets.
+* `simple_sniffer.py`: Basic packet capture tool.
+* `mail_sniffer.py`: Specifically designed to intercept and log email credentials and data.
+* `sniffer_ip_header.py`: Decodes and displays IP header information from captured packets.
 
 ### Remote Access & Exploitation
 
-* **`ssh_cmd.py` / `ssh_server.py**`: Tools for executing commands over SSH and setting up custom SSH server environments.
-* **`arper.py`**: A powerful ARP cache poisoning tool to facilitate Man-in-the-Middle (MitM) attacks.
-* **`scanner.py`**: A network scanner to identify active hosts and open ports.
+* `ssh_cmd.py` / `ssh_server.py`: Tools for executing commands over SSH and setting up custom SSH server environments.
+* `arper.py`: A powerful ARP cache poisoning tool to facilitate Man-in-the-Middle (MitM) attacks.
+* `scanner.py`: A network scanner to identify active hosts and open ports.
 
 
 
@@ -44,4 +44,5 @@ This repository is for **educational and ethical security testing purposes only*
 sudo python3 arper.py [targets]
 
 ```
+
 
