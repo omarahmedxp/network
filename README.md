@@ -10,10 +10,10 @@ This project for network engineers and security researchers. It covers from low-
 
 ### Core Networking
 
-* **`netcat.py`**: A modern Python light weight classic Netcat.
-* **`tcp_server.py` / `tcp_client.py**`: Standard implementations for TCP communication.
-* **`udp_client.py`**: Lightweight client for UDP-based data transmission.
-* **`proxy.py`**: A multi-threaded TCP proxy for monitoring and intercepting traffic between a client and a remote host.
+* `netcat.py`: A modern Python light weight classic Netcat.
+* `tcp_server.py` / `tcp_client.py`: Standard implementations for TCP communication.
+* `udp_client.py`: Lightweight client for UDP-based data transmission.
+* `proxy.py`: A multi-threaded TCP proxy for monitoring and intercepting traffic between a client and a remote host.
 
 ### Sniffing & Analysis
 
@@ -44,3 +44,4 @@ This repository is for **educational and ethical security testing purposes only*
 sudo python3 arper.py [targets]
 
 ```
+
